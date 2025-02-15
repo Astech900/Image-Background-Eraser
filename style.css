@@ -25,7 +25,7 @@
     overflow: hidden;
 }
 
-.img-wrap {
+.img-wrap{
     width: 20px;
     position: absolute;
     left: 0;
@@ -34,7 +34,7 @@
 
 }
 
-span {
+span{
     width: 1px;
     height: 100%;
     position: absolute;
@@ -45,11 +45,19 @@ span {
 
 }
 
-.arrows {
+.arrows{
     width: 40px;
     position: absolute;
     top: 50%;
     margin-left: -20px;
     margin-top: -20px;
 
+}
+#change-photo{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 2rem;
+    color: cadetblue;
+    cursor: pointer;
 }
